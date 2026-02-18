@@ -4,10 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Print hello world
-        run: |
-             echo "hello vcube"
-             echo "hello devops"
+        run: echo "hello vcube"
+            
