@@ -3,6 +3,6 @@ on: workflow_dispatch
 jobs:
   hello:
    runs-on: ubuntu-latest
-   steps:
+    steps:
      - name: print hello wolrd
       run: echo "hello vcube"
